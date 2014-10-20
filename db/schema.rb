@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20141007003121) do
+=======
+ActiveRecord::Schema.define(version: 20141006213425) do
+>>>>>>> add-devise
 
   create_table "invoices", force: true do |t|
     t.datetime "date"
@@ -33,10 +37,13 @@ ActiveRecord::Schema.define(version: 20141007003121) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
+<<<<<<< HEAD
     t.string   "confirmation_token"
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string   "unconfirmed_email"
+=======
+>>>>>>> add-devise
     t.datetime "created_at"
     t.datetime "updated_at"
   end
